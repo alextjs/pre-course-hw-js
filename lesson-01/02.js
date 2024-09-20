@@ -6,14 +6,14 @@
 //  а затем проверь их выводя в консоль: «[вставь сюда полученное число] :Это четное число» или «[вставь сюда полученное число] :Это нечетное число». С каждой перезагрузкой страницы у тебя будет новое число.​
 
 
-let number = Math.floor(Math.random() * 100);
+let number1 = Math.floor(Math.random() * 100);
 
-function checkTypeOfNumber (number) {
-    if (number % 2 === 0) {
-        console.log(number + ' is even.')
+function checkTypeOfNumber (number1) {
+    if (number1 % 2 === 0) {
+        console.log(number1 + ' :Это четное число');
     } else {
-        console.log(number + ' is odd.');
+        console.log(number1 + ' :Это нечетное число');
     }
 }
 
-checkTypeOfNumber(number);
+checkTypeOfNumber(number1);
